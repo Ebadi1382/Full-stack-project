@@ -14,7 +14,7 @@ import { useState } from "react";
 const Header = () => {
   const [Flag, setFlag] = useState(false);
   return (
-    <div className="container mx-auto px-10 py-3">
+    <div className="container mx-auto px-10 pt-3">
       <div className="flex justify-between items-start">
         <div className="flex flex-col justify-center">
           <Link href={"/"}>
