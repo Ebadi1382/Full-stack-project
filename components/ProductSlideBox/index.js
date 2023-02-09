@@ -6,17 +6,17 @@ import { RiShoppingCartLine } from "react-icons/ri";
 const index = () => {
   return (
     <article className="sliderItem p-2">
-      <div className="flex flex-col bg-white justify-around w-[19rem] h-[20rem] rounded-2xl shadow-[5px_5px_8px_rgba(0,0,0,0.25)] hover:shadow-[5px_5px_15px_rgba(0,0,0,0.7)] transition-all duration-500">
-        <div className="flex items-center justify-center">
+      <div className="flex flex-col bg-white justify-around w-[19rem] h-[23rem] rounded-2xl shadow-[5px_5px_8px_rgba(0,0,0,0.25)] hover:shadow-[5px_5px_15px_rgba(0,0,0,0.7)] transition-all duration-500">
+        <div className="flex items-start justify-center h-full">
           <Image
-            className="rounded-2xl"
-            alt="productSlideImage"
-            width={280}
-            height={140}
+            className="rounded-tl-2xl rounded-tr-2xl"
+            alt="product Slide Image"
+            width={310}
+            height={160}
             src={"/images/productSlider/ganj.jpg"}
           />
         </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start justify-center h-full">
           <div className="mr-3">
             <h3 className="text-[#656666] font-bold text-lg">کتاب گنج-نوشته جلال آل احمد</h3>
             <div className="flex items-center gap-x-2 mt-4 mb-6">
