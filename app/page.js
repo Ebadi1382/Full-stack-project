@@ -1,21 +1,25 @@
 import MainSlider from "../components/MainSlider";
-import ProductSlider from "../components/ProductSlider"
-import BannerSection from "../components/BannerSection"
+import ProductSlider from "../components/ProductSlider";
+import BannerSection from "../components/BannerSection";
+import GraphicCategories from "../components/GraphicCategories";
 const page = () => {
   return (
     <div>
       <main className=" ">
         <section>
-        <MainSlider />
+          <MainSlider />
         </section>
         <section className="mt-12">
-        <ProductSlider title="اپلیکیشن ها" />
+          <ProductSlider title="اپلیکیشن ها" />
         </section>
         <section className="mt-12">
-        <BannerSection />
+          <BannerSection />
         </section>
         <section className="mt-12">
-        <ProductSlider title="کتاب ها" />
+          <ProductSlider title="کتاب ها" />
+        </section>
+        <section className="mt-12">
+          <GraphicCategories />
         </section>
       </main>
     </div>
