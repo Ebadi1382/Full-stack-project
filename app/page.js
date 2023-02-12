@@ -2,10 +2,11 @@ import MainSlider from "../components/MainSlider";
 import ProductSlider from "../components/ProductSlider";
 import BannerSection from "../components/BannerSection";
 import GraphicCategories from "../components/GraphicCategories";
+import GraphicSlider from "../components/GraphicSlider"
 const page = () => {
   return (
     <div>
-      <main className=" ">
+      <main>
         <section>
           <MainSlider />
         </section>
@@ -20,6 +21,9 @@ const page = () => {
         </section>
         <section className="mt-12">
           <GraphicCategories />
+        </section>
+        <section className="mt-12">
+          <GraphicSlider />
         </section>
       </main>
     </div>

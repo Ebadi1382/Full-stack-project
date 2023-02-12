@@ -1,16 +1,14 @@
 .swiper-button-prev,
 .swiper-button-next {
-  background-color: #fff;
-  padding: 1.7rem 1.2rem;
-  border-radius: 5px;
+  background-color: #ffffff00;
   color: #0000ff;
 }
 .swiper-button-prev::after {
-  transform: scale(0.7);
+  /* transform: scale(0.7); */
   font-weight: bolder;
 }
 .swiper-button-next::after {
-  transform: scale(0.7);
+  /* transform: scale(0.7); */
   font-weight: bolder;
 }
 .sliderContainer {
